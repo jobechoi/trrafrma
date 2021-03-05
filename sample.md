@@ -1,4 +1,4 @@
-\# Get Started with Terraform
+# Get Started with Terraform
 
 Terraform is the most popular language for defining and provisioning infrastructure as code, or IaC. In this guide, you will progress through a few short steps to show you how to create a Terraform configuration, initialize it, create resources, and complete the procedure by destroying the configuration.
 
@@ -16,7 +16,7 @@ $ cd terraform-demo
 
 Next, create a file for your Terraform configuration code.
 
-"`shell
+```shell
 $ touch main.tf
 ```
 
@@ -52,7 +52,7 @@ Use the `init' command to initialize Terraform and install an AWS provider.
 $ terraform init
 ```
 
-If the configuration runs without errors, you proceed with the `apply` command to provision the resources. 
+If the configuration runs without errors, continue by using the `apply` command to provision the resources. 
 
 ```shell
 $ terraform apply
